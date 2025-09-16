@@ -24,10 +24,10 @@ namespace BaashaSahayak
             QuestPDF.Settings.License = LicenseType.Community;
             var endpoint = new Uri("https://consoleagent.openai.azure.com/");
             var deploymentName = "gpt-4o";
-            var apiKey = "DIVSb3txHjuQIT3ofxcyC2wlftfcSvWKrzq0a7509Oyv4rhjtQWiJQQJ99BIAC77bzfXJ3w3AAABACOG1uip";
+            var apiKey = "xxxx-xxx";
             var speechConfig = SpeechConfig.FromEndpoint(
             new Uri("https://eastus.api.cognitive.microsoft.com/"),
-            "D6NLFnYVTKXt8y40nXQaWtn6RPUHWK9TFt1uYu7bDIT1cMcNObbOJQQJ99BIACYeBjFXJ3w3AAAYACOGwnE2"
+            "xxxx-xxx"
             );
             speechConfig.SpeechRecognitionLanguage = "en-US";
 
